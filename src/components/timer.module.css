@@ -1,0 +1,26 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ .mainContainer{
+    border: 1px solid;
+     width: 400px;
+   height: 470px; 
+     margin: auto; 
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+.digit{
+   font-size: xx-large; 
+   text-align: center;
+   margin-top: 100px;
+   
+}
+
+.btn{
+    margin-top: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

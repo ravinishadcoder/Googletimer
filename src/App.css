@@ -1,10 +1,29 @@
 .App {
   text-align: center;
+  border: 1px solid rebeccapurple;
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  background-color: #202124;
+  color: white;
+  
 }
-
+.subcon{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.subcon h2{
+  cursor: pointer;
+  font-size: large;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.content{
+  display: flex;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +54,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+*{
+  background-color: #282c34;
+}
+
+.head{
+  color: white;
+  text-align: center;
 }
